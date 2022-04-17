@@ -41,8 +41,6 @@ function Register() {
     transaction_id: "",
   });
 
-  console.log("student", studentData);
-
   const handleChange = (name) => (event) => {
     setStudentData({ ...studentData, [name]: event.target.value });
   };
@@ -51,7 +49,6 @@ function Register() {
     e.preventDefault();
     try {
       const register = await addStudents(studentData);
-      console.log("res", register);
       if (register.keyValue === undefined) {
         toast.success("Registration Successfull");
       } else {
@@ -353,6 +350,13 @@ function Register() {
               </Row>
               <Row>
                 <Col className="mt-4 ml--4">
+                  <label
+                    className="form-control-label ml-4"
+                    htmlFor="example4cols2Input"
+                  >
+                    Scan&Pay
+                  </label>
+                  <br />
                   <img
                     style={{ width: "300px", height: "300px" }}
                     src={process.env.PUBLIC_URL + "/IMG-20220416-WA0001.jpg"}

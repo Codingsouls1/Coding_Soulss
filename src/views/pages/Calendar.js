@@ -84,7 +84,6 @@ function CalendarView() {
 
       // Add new event
       select: (info) => {
-        console.log("info", info);
         setModalAdd(true);
         setStartDate(startDate);
         setEndDate(endDate);
@@ -93,7 +92,6 @@ function CalendarView() {
 
       // Edit calendar event action
       eventClick: ({ event }) => {
-        console.log("event", event);
         setEventId(event.id);
         setEventTitle(event.title);
         setDescription(event.extendedProps.description);
@@ -121,7 +119,6 @@ function CalendarView() {
   const getEvents = async () => {
     const allEvents = await getAllEvents();
     const array = allEvents.map((even) => {
-      console.log(even);
       return calendar.addEvent({
         title: even.event_name,
         start: even.start_date,

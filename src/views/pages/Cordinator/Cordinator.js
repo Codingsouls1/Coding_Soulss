@@ -12,20 +12,19 @@ function Cordinator() {
       key: 1,
       name: "Prof. Arjun Singh Parihar",
       src: `${process.env.PUBLIC_URL + "/Mr. Arjun Singh Parihar.JPG"}`,
-      height: "450px",
+      position: "Chairman",
     },
     {
       key: 2,
       name: "Prof. Atul Agarwal",
-      postion: "Faculty Coordinator",
+      position: "Faculty Coordinator",
       src: `${process.env.PUBLIC_URL + "/Mr. Atul Agrawal.JPG"}`,
-      height: "425px",
     },
     {
       key: 3,
       name: "Prof. Sonal Yadav",
       src: `${process.env.PUBLIC_URL + "/Sonal Yadav.jpeg"}`,
-      height: "450px",
+      position: "Member",
     },
     {
       key: 4,
@@ -34,23 +33,22 @@ function Cordinator() {
         process.env.PUBLIC_URL +
         "/WhatsApp Image 2022-04-16 at 11.50.41 AM.jpeg"
       }`,
-      height: "450px",
+      position: "Member",
     },
     {
       key: 11,
       name: "Prof. Jagriti Singh",
       src: `${process.env.PUBLIC_URL + "/Ms. Jagriti Singh.JPG"}`,
-      height: "450px",
+      position: "Member",
     },
     {
       key: 5,
       name: "Mr. Anmol Agarwal",
-      postion: "Student Coordinartor",
+      position: "Student Coordinator",
       src: `${
         process.env.PUBLIC_URL +
         "/WhatsApp Image 2022-04-16 at 11.45.31 AM.jpeg"
       }`,
-      height: "425px",
     },
     {
       key: 7,
@@ -59,7 +57,7 @@ function Cordinator() {
         process.env.PUBLIC_URL +
         "/WhatsApp Image 2022-04-16 at 11.45.30 AM.jpeg"
       }`,
-      height: "450px",
+      position: "Student Representative",
     },
     {
       key: 6,
@@ -67,7 +65,7 @@ function Cordinator() {
       src: `${
         process.env.PUBLIC_URL + "/8b167af653c2399dd93b952a48740620.jpg"
       }`,
-      height: "450px",
+      position: "Student Representative",
     },
 
     {
@@ -76,7 +74,7 @@ function Cordinator() {
       src: `${
         process.env.PUBLIC_URL + "/8b167af653c2399dd93b952a48740620.jpg"
       }`,
-      height: "450px",
+      position: "Student Representative",
     },
     {
       key: 9,
@@ -84,7 +82,7 @@ function Cordinator() {
       src: `${
         process.env.PUBLIC_URL + "/8b167af653c2399dd93b952a48740620.jpg"
       }`,
-      height: "450px",
+      position: "Student Representative",
     },
     {
       key: 10,
@@ -92,7 +90,7 @@ function Cordinator() {
       src: `${
         process.env.PUBLIC_URL + "/8b167af653c2399dd93b952a48740620.jpg"
       }`,
-      height: "450px",
+      position: "Student Representative",
     },
   ]);
 
@@ -109,7 +107,7 @@ function Cordinator() {
                     <CardImg
                       alt="..."
                       src={staff.src}
-                      style={{ width: "100%", height: staff.height }}
+                      style={{ width: "100%", height: "420px" }}
                       top
                       className="p-4"
                     />
@@ -122,7 +120,7 @@ function Cordinator() {
                       </Row>
                       <Row>
                         <Col align="center">
-                          <span className="text-md">{staff.postion}</span>
+                          <span className="text-md">{staff.position}</span>
                         </Col>
                       </Row>
                     </CardBody>

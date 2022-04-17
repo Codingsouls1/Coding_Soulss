@@ -38,7 +38,6 @@ function Admin() {
     e.preventDefault();
     try {
       const login = await adminLogin(admin);
-      console.log("login", login);
       if (login.token) {
         toast.success("Admin Login Successfull");
         localStorage.setItem("token", login.token);

@@ -33,13 +33,12 @@ function Contactus() {
                     src={process.env.PUBLIC_URL + "/180503113442_DSC_0014.jpg"}
                     top
                     className="p-4"
-                    style={{ width: "100%", height: "100%" }}
+                    style={{ width: "100%", height: "315px" }}
                   />
                 </Col>
                 <CardBody className="mt--2">
                   <Row>
                     <Col align="center">
-                      <h4 className="mt-0 mb-1">Collage Name</h4>
                       <span className="text-md">
                         Sushila Devi Bansal College
                       </span>
@@ -47,7 +46,7 @@ function Contactus() {
                   </Row>
                   <Row>
                     <Col align="center">
-                      <h4 className="mt-3 mb-1">Affiliated Board</h4>
+                      <h4 className="mt-3 mb-1">Affiliated</h4>
                       <span className="text-md">Rgpv</span>
                     </Col>
                   </Row>
@@ -65,7 +64,7 @@ function Contactus() {
                   <TabContent>
                     <TabPane>
                       <ListGroup flush>
-                        <Row className="mt-4">
+                        <Row className="mt--3">
                           <Col>
                             <ListGroupItem className="checklist-entry flex-column align-items-start py-4 px-4">
                               <div className="checklist-item checklist-item-info">
@@ -82,8 +81,8 @@ function Contactus() {
                             </ListGroupItem>
                           </Col>
                         </Row>
-                        <Row className="mt-6 mb-4">
-                          <Col md="4">
+                        <Row className="mt-4">
+                          <Col>
                             <ListGroupItem className="checklist-entry flex-column align-items-start py-4 px-4">
                               <div className="checklist-item checklist-item-success">
                                 <div className="checklist-info">
@@ -102,11 +101,13 @@ function Contactus() {
                                   <h5 className="checklist-title mb-0">
                                     Contact No.
                                   </h5>
-                                  <small>+91-9827314181</small>
+                                  <small>9827314181</small>
                                 </div>
                               </div>
                             </ListGroupItem>
                           </Col>
+                        </Row>
+                        <Row className="mt-4">
                           <Col>
                             <ListGroupItem className="checklist-entry flex-column align-items-start py-4 px-4">
                               <div className="checklist-item checklist-item-success">
@@ -114,7 +115,7 @@ function Contactus() {
                                   <h5 className="checklist-title mb-0">
                                     Student Contact No.
                                   </h5>
-                                  <small>+91-9131399266</small>
+                                  <small>9131399266</small>
                                 </div>
                               </div>
                             </ListGroupItem>

@@ -60,7 +60,6 @@ function Dashboard() {
 
   const getEvents = async () => {
     const allEvents = await getAllEvents();
-    console.log("all", allEvents);
     setEvents(allEvents);
     setLoading(true);
   };
@@ -102,27 +101,25 @@ function Dashboard() {
       </Container>
       <Container className="mt-0" fluid>
         <Row>
-          <Col lg="4">
+          <Col lg="12">
             <div className="card-wrapper">
               <Card>
                 <Col align="center">
                   <h2 className="mt-2">Coding Souls</h2>
-                  <span>(Until Salvation)</span>
+                  <h3>(Until Salvation)</h3>
                   <CardImg
                     alt="..."
-                    src={
-                      process.env.PUBLIC_URL +
-                      "/codinsoulslogo-removebg-preview.png"
-                    }
+                    src={process.env.PUBLIC_URL + "/1650189061164.jpg"}
                     top
-                    className="p-4"
-                    style={{ width: "80%", height: "100%" }}
+                    className="p-4 image_logo "
                   />
                 </Col>
                 <CardBody className="mt-0"></CardBody>
               </Card>
             </div>
           </Col>
+        </Row>
+        <Row>
           <Col>
             <Card>
               <CardHeader>
@@ -141,7 +138,7 @@ function Dashboard() {
                 <Col>
                   <h2 className="Vision">Mission</h2>
                   <h4>
-                    To develop the ethical coders on the latest technology
+                    To develop the ethical coders on the latest technology.
                   </h4>
                   <br />
                 </Col>
@@ -150,7 +147,7 @@ function Dashboard() {
                   <h4>
                     Believe in learning together in friendly environment Inspire
                     discovery and invention through play with work ethics Accept
-                    the transformation and respect all
+                    the transformation and respect all.
                   </h4>
                 </Col>
               </CardBody>
@@ -233,7 +230,7 @@ function Dashboard() {
                       className={activeTab === "2" ? "active" : ""}
                       onClick={() => setActiveTab("2")}
                     >
-                      New Events
+                      Events
                     </NavLink>
                   </NavItem>
                 </Nav>
@@ -253,9 +250,8 @@ function Dashboard() {
             <TabContent activeTab={activeTab}>
               <TabPane tabId="1">
                 <h2 activeTab={activeTab}>
-                  We are organising the programming contest on 28/04/2022
-                  Registration start from 16/04/2022 and last date of
-                  registration is 27/04/2022.
+                  We are organising the programming contest on 28/04/2022 last
+                  date of Registration is 26/04/2022.
                 </h2>
                 <Button color="success" onClick={redirect}>
                   Register

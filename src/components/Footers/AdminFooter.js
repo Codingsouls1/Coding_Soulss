@@ -38,53 +38,27 @@ function AdminFooter() {
 "
                     target="_blank"
                   >
-                    Kuldeep,
+                    Kuldeep Panwar
                   </a>{" "}
+                  ,
                   <a
                     href=" https://www.linkedin.com/in/shobhitchoudhary
 "
                     target="_blank"
                   >
-                    Shobhit
+                    Shobhit Choudhary
                   </a>{" "}
+                  &{" "}
                   <a
                     href=" https://www.linkedin.com/in/raghav-sharma-159487210
 "
                     target="_blank"
                   >
-                    & Raghav
+                    Raghav Sharma
                   </a>
                 </h3>
               </div>
             </Col>
-            {/* <Col lg="6">
-              <div className="copyright text-center text-lg-right text-muted">
-                <h3 className="font-weight-bold ml-1">
-                  © {new Date().getFullYear()} Design&Developed by{" "}
-                  <a
-                    href=" https://www.linkedin.com/in/kuldeep-singh-panwar-b12486210
-"
-                    target="_blank"
-                  >
-                    Kuldeep
-                  </a>{" "}
-                  <a
-                    href=" https://www.linkedin.com/in/shobhitchoudhary
-"
-                    target="_blank"
-                  >
-                    Shobhit
-                  </a>{" "}
-                  <a
-                    href=" https://www.linkedin.com/in/raghav-sharma-159487210
-"
-                    target="_blank"
-                  >
-                    Raghav
-                  </a>
-                </h3>
-              </div>
-            </Col> */}
           </Row>
         </footer>
       </Container>

@@ -36,7 +36,6 @@ function AllStudent() {
 
   const getAllStudents = async () => {
     const students = await allStudents();
-    console.log("res", students);
     setAlStudent(students);
     setLoading(true);
   };
@@ -86,6 +85,9 @@ function AllStudent() {
                                 <h3>Name</h3>
                               </th>
                               <th>
+                                <h3>Email</h3>
+                              </th>
+                              <th>
                                 <h3>Enrollment No.</h3>
                               </th>
                               <th>
@@ -99,6 +101,9 @@ function AllStudent() {
                               </th>
                               <th>
                                 <h3>Year</h3>
+                              </th>
+                              <th>
+                                <h3>Contact</h3>
                               </th>
                               <th>
                                 <h3>transaction / Reference id </h3>
@@ -125,25 +130,26 @@ function AllStudent() {
                                             {students.last_name}
                                           </h4>
                                         </td>
-
+                                        <td>
+                                          <h4>{students.email}</h4>
+                                        </td>
                                         <td>
                                           <h4>{students.enrollment_no}</h4>
                                         </td>
-
                                         <td>
                                           <h4>{students.college} </h4>
                                         </td>
-
                                         <td>
                                           <h4>{students.branch} </h4>
                                         </td>
-
                                         <td>
                                           <h4>{students.section} </h4>
                                         </td>
-
                                         <td>
                                           <h4>{students.year} </h4>
+                                        </td>
+                                        <td>
+                                          <h4>{students.contact_no} </h4>
                                         </td>
                                         <td>
                                           <h4>{students.transaction_id} </h4>

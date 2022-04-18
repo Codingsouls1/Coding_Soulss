@@ -365,6 +365,9 @@ function Register() {
               </Row>
             </CardBody>
             <CardFooter>
+              <h3>
+                Please check TransactionID/ReferenceID on payment Reciept.
+              </h3>
               <h3>Please check your email for further process.</h3>
               <Button type="submit" color="primary">
                 Submit

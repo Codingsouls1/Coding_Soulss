@@ -250,8 +250,8 @@ function Dashboard() {
             <TabContent activeTab={activeTab}>
               <TabPane tabId="1">
                 <h2 activeTab={activeTab}>
-                  We are organizing the programming contest on 28/04/2022 last
-                  date of Registration is 26/04/2022.
+                  BGI Coders 2k22 Coding Competitions <br /> Event Date: 28
+                  April, 2022 <br /> Registration Last Date: 26 April, 2022
                 </h2>
                 <Button color="success" onClick={redirect}>
                   Register

@@ -151,10 +151,10 @@ function Register() {
                       Select College
                     </option>
                     <option>
-                      Sushila Devi Bansal College Of Technology, Indore
+                      Sushila Devi Bansal College of Technology, Indore
                     </option>{" "}
                     <option>
-                      Sushila Devi Bansal College Of Engineering, Indore
+                      Sushila Devi Bansal College of Engineering, Indore
                     </option>
                     <option>
                       Bansal Institute of Science & Technology, Bhopal

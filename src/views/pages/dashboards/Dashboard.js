@@ -250,7 +250,7 @@ function Dashboard() {
             <TabContent activeTab={activeTab}>
               <TabPane tabId="1">
                 <h2 activeTab={activeTab}>
-                  We are organising the programming contest on 28/04/2022 last
+                  We are organizing the programming contest on 28/04/2022 last
                   date of Registration is 26/04/2022.
                 </h2>
                 <Button color="success" onClick={redirect}>

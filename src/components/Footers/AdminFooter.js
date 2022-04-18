@@ -38,7 +38,7 @@ function AdminFooter() {
 "
                     target="_blank"
                   >
-                    Kuldeep
+                    Kuldeep,
                   </a>{" "}
                   <a
                     href=" https://www.linkedin.com/in/shobhitchoudhary
@@ -52,7 +52,7 @@ function AdminFooter() {
 "
                     target="_blank"
                   >
-                    Raghav
+                    & Raghav
                   </a>
                 </h3>
               </div>

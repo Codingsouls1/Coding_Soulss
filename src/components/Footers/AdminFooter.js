@@ -39,8 +39,8 @@ function AdminFooter() {
                     target="_blank"
                   >
                     Kuldeep Panwar
-                  </a>{" "}
-                  ,
+                  </a>
+                  ,{" "}
                   <a
                     href=" https://www.linkedin.com/in/shobhitchoudhary
 "

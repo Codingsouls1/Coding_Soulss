@@ -10,7 +10,6 @@ export const adminLogin = (data) => {
     body: JSON.stringify(data),
   })
     .then((data) => {
-      console.log("data", data);
       return data.json();
     })
     .catch((error) => {

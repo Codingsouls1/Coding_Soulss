@@ -10,11 +10,9 @@ export const addStudents = (data) => {
     body: JSON.stringify(data),
   })
     .then((data) => {
-      console.log("data");
       return data.json();
     })
     .catch((error) => {
-      console.log(error);
       throw error;
     });
 };
@@ -30,7 +28,6 @@ export const allStudents = () => {
     },
   })
     .then((data) => {
-      console.log("data", data);
       return data.json();
     })
     .catch((error) => {

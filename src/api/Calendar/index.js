@@ -1,5 +1,4 @@
 export const createAllEvents = (data) => {
-  console.log("data", data);
   const url = `${process.env.REACT_APP_API}/event`;
   return fetch(url, {
     method: "POST",
@@ -29,7 +28,6 @@ export const getAllEvents = () => {
     },
   })
     .then((data) => {
-      //   console.log("data", data);
       return data.json();
     })
     .catch((error) => {
@@ -49,7 +47,7 @@ export const editAllEvents = (eventId, alldata) => {
     body: JSON.stringify(alldata),
   })
     .then((data) => {
-      //   console.log("data", data);
+
       return data.json();
     })
     .catch((error) => {
@@ -68,7 +66,7 @@ export const deleteAllEvents = (eventId) => {
     },
   })
     .then((data) => {
-      //   console.log("data", data);
+    
       return data.json();
     })
     .catch((error) => {

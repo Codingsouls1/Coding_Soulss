@@ -1,10 +1,11 @@
 export const createAllEvents = (data) => {
   console.log("data", data);
-  const url = `https://rocky-wave-71489.herokuapp.com/event`;
+  const url = `${process.env.REACT_APP_API}/event`;
   return fetch(url, {
     method: "POST",
     headers: {
       Accept: "application/json",
+      secret_key:process.env.REACT_APP_SECRET_KEY,
       "Content-Type": "application/json",
     },
     body: JSON.stringify(data),
@@ -18,11 +19,12 @@ export const createAllEvents = (data) => {
 };
 
 export const getAllEvents = () => {
-  const url = `https://rocky-wave-71489.herokuapp.com/event`;
+  const url = `${process.env.REACT_APP_API}/event`;
   return fetch(url, {
     method: "GET",
     headers: {
       Accept: "application/json",
+      secret_key:process.env.REACT_APP_SECRET_KEY,
       "Content-Type": "application/json",
     },
   })
@@ -36,11 +38,12 @@ export const getAllEvents = () => {
 };
 
 export const editAllEvents = (eventId, alldata) => {
-  const url = `https://rocky-wave-71489.herokuapp.com/event/${eventId}`;
+  const url = `${process.env.REACT_APP_API}/event/${eventId}`;
   return fetch(url, {
     method: "PATCH",
     headers: {
       Accept: "application/json",
+      secret_key:process.env.REACT_APP_SECRET_KEY,
       "Content-Type": "application/json",
     },
     body: JSON.stringify(alldata),
@@ -55,11 +58,12 @@ export const editAllEvents = (eventId, alldata) => {
 };
 
 export const deleteAllEvents = (eventId) => {
-  const url = `https://rocky-wave-71489.herokuapp.com/event/${eventId}`;
+  const url = `${process.env.REACT_APP_API}/event/${eventId}`;
   return fetch(url, {
     method: "DELETE",
     headers: {
       Accept: "application/json",
+      secret_key:process.env.REACT_APP_SECRET_KEY,
       "Content-Type": "application/json",
     },
   })

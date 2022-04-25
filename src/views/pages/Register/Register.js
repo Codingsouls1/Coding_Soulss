@@ -369,6 +369,7 @@ function Register() {
                 Please check TransactionID/ReferenceID on Payment Receipt.
               </h3>
               <h3>Please check your email for further process.</h3>
+              <h3>Registration fees will be 100 Rupees only.</h3>
               <Button type="submit" color="primary">
                 Submit
               </Button>

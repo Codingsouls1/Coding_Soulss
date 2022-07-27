@@ -26,12 +26,12 @@ function AdminFooter() {
         <footer className="footer pt-0">
           <Row className="align-items-center justify-content-lg-between">
             <Col lg="6">
-              <div className="copyright text-center text-lg-left text-muted">
+              {/* <div className="copyright text-center text-lg-left text-muted"> */}
                 {/* © {new Date().getFullYear()}{" "} */}
                 {/* <a className="font-weight-bold ml-1" href="#" target="_blank">
                   All Rights Reserved
                 </a> */}
-                <h3 className="font-weight-bold ml-1">
+                {/* <h3 className="font-weight-bold ml-1">
                   © {new Date().getFullYear()} Design & Developed by{" "}
                   <a
                     href=" https://www.linkedin.com/in/kuldeep-singh-panwar-b12486210
@@ -57,7 +57,7 @@ function AdminFooter() {
                     Raghav Sharma
                   </a>
                 </h3>
-              </div>
+              </div> */}
             </Col>
           </Row>
         </footer>
